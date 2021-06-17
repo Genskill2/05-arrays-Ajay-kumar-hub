@@ -9,7 +9,7 @@ int max(int a[],int n){
     max=a[i];
   }
 }
-retrun max;
+return max;
 }
 
 
@@ -39,7 +39,7 @@ int min(int b[], int n){
          int mode = 0;
          for(int i=0; i<n; i++){
            int counts =0;
-           foe(int j=0; j<n; j++){
+           for(int j=0; j<n; j++){
              if(d[j]==d[i]){
                counts++;
              }
@@ -54,7 +54,7 @@ int min(int b[], int n){
              
       int factors(int n,int e[]){
         int i=0;
-        while(n%2===0){
+        while(n%2==0){
           e[i]=2;
           i++;
           n=n/2;
@@ -68,6 +68,6 @@ int min(int b[], int n){
         }
         if(n>2)
           e[i]=n;
-        returni;
+        return i;
       }   
              
